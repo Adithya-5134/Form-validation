@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+ small{
+     margin-top: 5px;
+ }
+
+
+
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    width:100%;
+    height:60px;
+    background-color: rgb(0, 238, 255);
+    text-align: center;
+    font-size: 4vmin;
+    padding:15px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+section.whole{
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:fit-content;
+}
+
+
+section.main{
+   max-width: 600px;
+  
+   margin: 0 auto;
+
+   background-color: rgb(231, 224, 224);
+  
+   
+   border-radius: 5px;
+   box-shadow:10px 20px 25px rgba(0,0,0,.3) ;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   
+   
+   
+}
+
+
+div.head{
+    background-color: whitesmoke;
+    padding:10px 30px;
+}
+
+div.form-content{
+    background-color: rgb(231, 224, 224);
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+    
+
+}
+
+
+div.form-content input{
+    border: 2px solid #989696;
+    
+}
+div.form-content input:focus{
+    border: 2px solid #282626;
+    
+}
+
+
+div.form-content select{
+    border: 2px solid #989696;
+}
+div.form-content select:focus{
+    border: 2px solid #282626;
+}
+
+div.form-content.success input{
+   border-color: #1dc463;
+}
+div.form-content.error input{
+    border-color: red;
+ }
+div.form-content.success select{
+   border-color: #1dc463;
+}
+div.form-content.error select{
+    border-color: red;
+ }
+
+ .form-content small{
+    color: red;
+    position: absolute;
+    top:22px;
+    left:155px;
+    visibility: hidden;
+}
+
+.form-content.error small{
+    visibility: visible;
+}
+ 
+
+/* box space */
+
+
+input#name1{
+    
+    margin-left: 75px;
+    border-radius: 5px;
+    height:25px;
+}
+
+.fac1{
+    margin-left: 94px;
+}
+
+.fac2{
+    margin-left: 30px;
+}
+.fac3{
+    margin-left: 30px;
+}
+
+
+
+input#num1{
+    margin-left: 38px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+
+input#dob1{
+    margin-left: 53px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+
+input.address1{
+    margin-left: 39px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+input.address2{
+    margin-left: 122px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+input.address3{
+    margin-left: 41px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+input.address4{
+    margin-left: 31px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+
+
+
+input#email1{
+    margin-left: 37px;
+    border-radius: 5px;
+    height:25px;
+    width: 180px;
+}
+
+select#services1{
+    margin-left: 75px;
+    border-radius: 5px;
+    height:25px;
+    width: 180px;
+}
+
+input#dt{
+    margin-left: 55px;
+    width: 180px;
+    border-radius: 5px;
+    height:25px;
+}
+
+.fac{
+    margin-left: 150px;
+}
+
+input#facility1{
+    border-radius: 5px;
+    
+}
+
+
+/* ---- */
+.sub{
+    padding:5px 20px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: #1a73e8;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+
+
+
